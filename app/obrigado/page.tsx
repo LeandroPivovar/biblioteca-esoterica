@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 };
 
 const steps = [
-  { icon: Mail, title: "Abra seu e-mail", text: "A Kiwify envia uma mensagem para o e-mail usado na compra com os dados de acesso aos seus guias." },
-  { icon: KeyRound, title: "Entre na área de membros", text: "Use o login e a senha recebidos. Se preferir, clique em \"Esqueceu a senha?\" para criar uma nova." },
-  { icon: Download, title: "Baixe os 2 livros", text: "Os PDFs do Guia Místico das Ervas e de A Sabedoria dos Cristais ficam disponíveis para baixar e ler no celular, tablet ou computador." },
+  { icon: Mail, title: "Abra o e-mail de acesso", text: "Já enviamos para o e-mail usado na compra uma mensagem com o seu acesso à área de membros." },
+  { icon: KeyRound, title: "Entre na área de membros", text: "Use o login e a senha recebidos no e-mail. Se preferir, clique em \"Esqueceu a senha?\" para criar uma nova." },
+  { icon: Download, title: "Retire seus guias", text: "Na área de membros estão o Guia Místico das Ervas e A Sabedoria dos Cristais, prontos para baixar e ler no celular, tablet ou computador." },
 ];
 
 export default function ThankYou() {
@@ -24,7 +24,7 @@ export default function ThankYou() {
         <div className="thanks-copy">
           <div className="eyebrow"><Sparkles size={14} aria-hidden="true" />Compra confirmada</div>
           <h1>Obrigado! <em>Seus guias já são seus.</em></h1>
-          <p className="thanks-lead">Sua jornada pelo universo dos cristais e das ervas começa agora. Siga os passos abaixo para acessar os dois livros digitais.</p>
+          <p className="thanks-lead">Enviamos um e-mail com o seu acesso à <strong>área de membros</strong>. É lá que você retira os dois guias digitais: basta entrar com os dados recebidos e baixar os livros.</p>
           <a className="cta" href={MEMBERS_LOGIN_URL} target="_blank" rel="noopener noreferrer"><span>ACESSAR MEUS GUIAS</span><span aria-hidden="true">→</span></a>
         </div>
         <div className="thanks-visual">
