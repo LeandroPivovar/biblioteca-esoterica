@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { BookOpen, Check, Eye, Gem, Leaf, Search, ShieldCheck, Smartphone, Sparkles } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-const CHECKOUT_URL = "https://pay.kiwify.com.br/glzvrYc";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/2y7zM5C";
 const crystalPages = [3, 4, 5, 7, 9];
 const herbPages = [2, 4, 6, 9, 11];
 const faqs = [

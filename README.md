@@ -2,6 +2,8 @@
 
 Landing page dos guias digitais "Guia Místico das Ervas" e "A Sabedoria dos Cristais", feita com Next.js (App Router) e Tailwind CSS.
 
+Produção: https://biblioteca-esoterica.vercel.app/
+
 ## Desenvolvimento
 
 Requer Node.js 20.9 ou superior.
